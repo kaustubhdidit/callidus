@@ -1,0 +1,528 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Page Title</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&family=Work+Sans:wght@200;300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik+Doodle+Shadow&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Lobster&family=Playfair+Display+SC:wght@900&family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="style.css" />
+    <!-- Fontawesome icon -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+      integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" type="text/css" media="screen" href="styles.css" />
+    <link rel="stylesheet" href="stile.css">
+    <script src="main.js"></script>
+  </head>
+  <body>
+    <div class="tile"></div>
+
+    <div>
+      <nav class="navbar">
+        <ul class="navbar-nav">
+          <li class="logo">
+            <a href="#" class="nav-link">
+              <span class="link-text logo-text">Callidus</span>
+              <svg
+                aria-hidden="true"
+                focusable="false"
+                data-prefix="fad"
+                data-icon="angle-double-right"
+                role="img"
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 448 512"
+                class="svg-inline--fa fa-angle-double-right fa-w-14 fa-5x"
+              >
+                <g class="fa-group">
+                  <path
+                    fill="currentColor"
+                    d="M224 273L88.37 409a23.78 23.78 0 0 1-33.8 0L32 386.36a23.94 23.94 0 0 1 0-33.89l96.13-96.37L32 159.73a23.94 23.94 0 0 1 0-33.89l22.44-22.79a23.78 23.78 0 0 1 33.8 0L223.88 239a23.94 23.94 0 0 1 .1 34z"
+                    class="fa-secondary"
+                  ></path>
+                  <path
+                    fill="currentColor"
+                    d="M415.89 273L280.34 409a23.77 23.77 0 0 1-33.79 0L224 386.26a23.94 23.94 0 0 1 0-33.89L320.11 256l-96-96.47a23.94 23.94 0 0 1 0-33.89l22.52-22.59a23.77 23.77 0 0 1 33.79 0L416 239a24 24 0 0 1-.11 34z"
+                    class="fa-primary"
+                  ></path>
+                </g>
+              </svg>
+            </a>
+          </li>
+
+          <li class="nav-item">
+            <a href="#timeline" class="nav-link">
+                <svg
+                aria-hidden="true"
+                focusable="false"
+                data-prefix="fad"
+                data-icon="alien-monster"
+                role="img"
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 576 512"
+                class="svg-inline--fa fa-alien-monster fa-w-18 fa-9x"
+              >
+                <g class="fa-group">
+                  <path
+                    fill="currentColor"
+                    d="M128 0c17.7 0 32 14.3 32 32V64H288V32c0-17.7 14.3-32 32-32s32 14.3 32 32V64h48c26.5 0 48 21.5 48 48v48H0V112C0 85.5 21.5 64 48 64H96V32c0-17.7 14.3-32 32-32zM0 192H448V464c0 26.5-21.5 48-48 48H48c-26.5 0-48-21.5-48-48V192zm64 80v32c0 8.8 7.2 16 16 16h32c8.8 0 16-7.2 16-16V272c0-8.8-7.2-16-16-16H80c-8.8 0-16 7.2-16 16zm128 0v32c0 8.8 7.2 16 16 16h32c8.8 0 16-7.2 16-16V272c0-8.8-7.2-16-16-16H208c-8.8 0-16 7.2-16 16zm144-16c-8.8 0-16 7.2-16 16v32c0 8.8 7.2 16 16 16h32c8.8 0 16-7.2 16-16V272c0-8.8-7.2-16-16-16H336zM64 400v32c0 8.8 7.2 16 16 16h32c8.8 0 16-7.2 16-16V400c0-8.8-7.2-16-16-16H80c-8.8 0-16 7.2-16 16zm144-16c-8.8 0-16 7.2-16 16v32c0 8.8 7.2 16 16 16h32c8.8 0 16-7.2 16-16V400c0-8.8-7.2-16-16-16H208zm112 16v32c0 8.8 7.2 16 16 16h32c8.8 0 16-7.2 16-16V400c0-8.8-7.2-16-16-16H336c-8.8 0-16 7.2-16 16z"
+                    class="fa-secondary"
+                  ></path>
+                </g>
+              </svg>
+              <span class="link-text">Calender</span>
+            </a>
+          </li>
+
+          <li class="nav-item">
+            <a href="#timeline" class="nav-link">
+              <svg
+                aria-hidden="true"
+                focusable="false"
+                data-prefix="fad"
+                data-icon="alien-monster"
+                role="img"
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 616 502"
+                class="svg-inline--fa fa-alien-monster fa-w-18 fa-9x"
+              >
+                <g class="fa-group">
+                  <path
+                    fill="currentColor"
+                     d="M128 72a24 24 0 1 1 0 48 24 24 0 1 1 0-48zm32 97.3c28.3-12.3 48-40.5 48-73.3c0-44.2-35.8-80-80-80S48 51.8 48 96c0 32.8 19.7 61 48 73.3V224H32c-17.7 0-32 14.3-32 32s14.3 32 32 32H288v54.7c-28.3 12.3-48 40.5-48 73.3c0 44.2 35.8 80 80 80s80-35.8 80-80c0-32.8-19.7-61-48-73.3V288H608c17.7 0 32-14.3 32-32s-14.3-32-32-32H544V169.3c28.3-12.3 48-40.5 48-73.3c0-44.2-35.8-80-80-80s-80 35.8-80 80c0 32.8 19.7 61 48 73.3V224H160V169.3zM488 96a24 24 0 1 1 48 0 24 24 0 1 1 -48 0zM320 392a24 24 0 1 1 0 48 24 24 0 1 1 0-48z"
+                    class="fa-secondary"
+                  ></path>
+                </g>
+              </svg>
+              <span class="link-text">Timeline</span>
+            </a>
+          </li>
+
+          <li class="nav-item">
+            <a href="#contact" class="nav-link">
+              <svg
+                aria-hidden="true"
+                focusable="false"
+                data-prefix="fad"
+                data-icon="space-station-moon-alt"
+                role="img"
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 512 512"
+                class="svg-inline--fa fa-space-station-moon-alt fa-w-16 fa-5x"
+              >
+                <g class="fa-group">
+                  <path
+                    fill="currentColor"
+                    d="M64 112c-8.8 0-16 7.2-16 16v22.1L220.5 291.7c20.7 17 50.4 17 71.1 0L464 150.1V128c0-8.8-7.2-16-16-16H64zM48 212.2V384c0 8.8 7.2 16 16 16H448c8.8 0 16-7.2 16-16V212.2L322 328.8c-38.4 31.5-93.7 31.5-132 0L48 212.2zM0 128C0 92.7 28.7 64 64 64H448c35.3 0 64 28.7 64 64V384c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V128z"
+                    class="fa-secondary"
+                  ></path>
+                </g>
+              </svg>
+              <span class="link-text">Contact</span>
+            </a>
+          </li>
+
+          <li class="nav-item">
+            <a href="#" class="nav-link">
+              <svg
+                aria-hidden="true"
+                focusable="false"
+                data-prefix="fad"
+                data-icon="space-shuttle"
+                role="img"
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 640 512"
+                class="svg-inline--fa fa-space-shuttle fa-w-20 fa-5x"
+              >
+                <g class="fa-group">
+                  <path
+                    fill="currentColor"
+                    d="M32 416c0 35.35 21.49 64 48 64h16V352H32zm154.54-232h280.13L376 168C243 140.59 222.45 51.22 128 34.65V160h18.34a45.62 45.62 0 0 1 40.2 24zM32 96v64h64V32H80c-26.51 0-48 28.65-48 64zm114.34 256H128v125.35C222.45 460.78 243 371.41 376 344l90.67-16H186.54a45.62 45.62 0 0 1-40.2 24z"
+                    class="fa-secondary"
+                  ></path>
+                  <path
+                    fill="currentColor"
+                    d="M592.6 208.24C559.73 192.84 515.78 184 472 184H186.54a45.62 45.62 0 0 0-40.2-24H32c-23.2 0-32 10-32 24v144c0 14 8.82 24 32 24h114.34a45.62 45.62 0 0 0 40.2-24H472c43.78 0 87.73-8.84 120.6-24.24C622.28 289.84 640 272 640 256s-17.72-33.84-47.4-47.76zM488 296a8 8 0 0 1-8-8v-64a8 8 0 0 1 8-8c31.91 0 31.94 80 0 80z"
+                    class="fa-primary"
+                  ></path>
+                </g>
+              </svg>
+              <span class="link-text">Upcoming..</span>
+            </a>
+          </li>
+
+          <!-- <li></li> -->
+        </ul>
+      </nav>
+
+    
+        <div class="tbg">
+        <div class="titler">
+        <img src="image/logos.png" alt="">
+    </div>
+
+
+    <div class="bgimg">
+       
+        <div class="middle">
+          <h1>COMING SOON</h1>
+          <hr>
+          <p id="demo" style="font-size:30px"></p>
+        </div>
+       
+      </div>
+
+      <div class="extraa">
+
+      </div>
+
+        <div class="train-container">
+            
+          <div class="train-car"><img src="image/tren1.png"></div>
+          <div class="train-car"><img src="image/tren2.png"></div>
+          <div class="train-car"><img src="image/tren3.png"></div>
+          <div class="train-car"><img src="image/tren4.png"></div>
+          <div class="train-car"><img src="image/tren5.png"></div>
+          <div class="train-car"><img src="image/tren6.png"></div>
+          <div class="train-car"><img src="image/tren1.png"></div>
+          <div class="train-car"><img src="image/tren4.png"></div>
+          <div class="train-car"><img src="image/tren2.png"></div>
+          <div class="train-car"><img src="image/tren5.png"></div>
+        </div>
+     
+    </div>
+
+   
+
+        <section class="team" id="team">
+            <div class="center">
+                <h1>Our Team</h1>
+            </div>
+    
+            <div class="team-content">
+              <div class="box">
+                <img src="image/team1.png">
+                <h3>Swarnim Mishra</h3>
+                <h5>Artist</h5>
+                <div class="icons">
+                    <a href="#"><i class="ri-twitter-fill"></i></a>
+                    <a href="#"><i class="ri-facebook-box-fill"></i></a>
+                    <a href="#"><i class="ri-instagram-fill"></i></a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="image/team3.png">
+                <h3>Madhav Dwivedi</h3>
+                <h5>Web</h5>
+                <div class="icons">
+                    <a href="#"><i class="ri-twitter-fill"></i></a>
+                    <a href="#"><i class="ri-facebook-box-fill"></i></a>
+                    <a href="#"><i class="ri-instagram-fill"></i></a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="image/team8.png">
+                <h3>Kaustubh Dixit</h3>
+                <h5>Web</h5>
+                <div class="icons">
+                    <a href="#"><i class="ri-twitter-fill"></i></a>
+                    <a href="#"><i class="ri-facebook-box-fill"></i></a>
+                    <a href="#"><i class="ri-instagram-fill"></i></a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="image/team4.png">
+                <h3>Nishant Kardam</h3>
+                <h5>Artist</h5>
+                <div class="icons">
+                    <a href="#"><i class="ri-twitter-fill"></i></a>
+                    <a href="#"><i class="ri-facebook-box-fill"></i></a>
+                    <a href="#"><i class="ri-instagram-fill"></i></a>
+                </div>
+            </div>
+
+            </div>
+
+            <div class="ext" style="height: 2cm;"></div>
+
+            <div class="team-content">
+
+                <div class="box">
+                    <img src="image/team9.png">
+                    <h3>Garvit Mohan Sharma</h3>
+                    <h5>Content</h5>
+                    <div class="icons">
+                        <a href="#"><i class="ri-twitter-fill"></i></a>
+                        <a href="#"><i class="ri-facebook-box-fill"></i></a>
+                        <a href="#"><i class="ri-instagram-fill"></i></a>
+                    </div>
+                </div>
+    
+                <div class="box">
+                    <img src="image/team3.png">
+                    <h3>Steph Jobs</h3>
+                    <h5>Artist</h5>
+                    <div class="icons">
+                        <a href="#"><i class="ri-twitter-fill"></i></a>
+                        <a href="#"><i class="ri-facebook-box-fill"></i></a>
+                        <a href="#"><i class="ri-instagram-fill"></i></a>
+                    </div>
+                </div>
+    
+                <div class="box">
+                    <img src="image/team2.png">
+                    <h3>Aashika Nath</h3>
+                    <h5>Design</h5>
+                    <div class="icons">
+                        <a href="#"><i class="ri-twitter-fill"></i></a>
+                        <a href="#"><i class="ri-facebook-box-fill"></i></a>
+                        <a href="#"><i class="ri-instagram-fill"></i></a>
+                    </div>
+                </div>
+    
+                <div class="box">
+                    <img src="image/team4.png">
+                    <h3>Steph Jobs</h3>
+                    <h5>Artist</h5>
+                    <div class="icons">
+                        <a href="#"><i class="ri-twitter-fill"></i></a>
+                        <a href="#"><i class="ri-facebook-box-fill"></i></a>
+                        <a href="#"><i class="ri-instagram-fill"></i></a>
+                    </div>
+                </div>
+    
+            </div>
+        </section>
+
+
+
+        <h2>A clean timeline design, with animated links</h2>
+        <div class="timeline" id="timeline"> 
+          <div class="timeline__event  animated fadeInUp delay-3s timeline__event--type1">
+            <div class="timeline__event__icon ">
+              <i class="lni-cake"></i>
+        
+            </div>
+            <div class="timeline__event__date">
+              20-08-2019
+            </div>
+            <div class="timeline__event__content ">
+              <div class="timeline__event__title">
+                Birthday
+              </div>
+              <div class="timeline__event__description">
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vel, nam! Nam eveniet ut aliquam ab asperiores, accusamus iure veniam corporis incidunt reprehenderit accusantium id aut architecto harum quidem dolorem in!</p>
+              </div>
+            </div>
+          </div>
+          <div class="timeline__event animated fadeInUp delay-2s timeline__event--type2">
+            <div class="timeline__event__icon">
+              <i class="lni-burger"></i>
+        
+            </div>
+            <div class="timeline__event__date">
+              20-08-2019
+            </div>
+            <div class="timeline__event__content">
+              <div class="timeline__event__title">
+                Lunch
+              </div>
+              <div class="timeline__event__description">
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vel, nam! Nam eveniet ut aliquam ab asperiores, accusamus iure veniam corporis incidunt reprehenderit accusantium id aut architecto harum quidem dolorem in!</p>
+              </div>
+            </div>
+          </div>
+          <div class="timeline__event animated fadeInUp delay-1s timeline__event--type3">
+            <div class="timeline__event__icon">
+              <i class="lni-slim"></i>
+        
+            </div>
+            <div class="timeline__event__date">
+              20-08-2019
+            </div>
+            <div class="timeline__event__content">
+              <div class="timeline__event__title">
+                Exercise
+              </div>
+              <div class="timeline__event__description">
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vel, nam! Nam eveniet ut aliquam ab asperiores, accusamus iure veniam corporis incidunt reprehenderit accusantium id aut architecto harum quidem dolorem in!</p>
+              </div>
+        
+            </div>
+          </div>
+          <div class="timeline__event animated fadeInUp timeline__event--type1">
+            <div class="timeline__event__icon">
+              <i class="lni-cake"></i>
+        
+            </div>
+            <div class="timeline__event__date">
+              20-08-2019
+            </div>
+            <div class="timeline__event__content">
+              <div class="timeline__event__title">
+                Birthday
+              </div>
+              <div class="timeline__event__description">
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vel, nam! Nam eveniet ut aliquam ab asperiores, accusamus iure veniam corporis incidunt reprehenderit accusantium id aut architecto harum quidem dolorem in!</p>
+              </div>
+            </div>
+          </div>
+        
+        </div>
+
+
+
+
+        <section class="contact-section" id="contact">
+          <div class="contact-bg">
+            <h3>Get in Touch with Us</h3>
+            <h2>contact us</h2>
+            <div class="line">
+              <div></div>
+              <div></div>
+              <div></div>
+            </div>
+          </div>
+
+          <div class="contact-body">
+            <div class="contact-form">
+              <form action="https://api.web3forms.com/submit" method="POST" >
+                <input
+                  type="hidden"
+                  name="access_key"
+                  value="eebe6f87-5c29-496d-9edb-5bcee07f431c"
+                />
+
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder="Name"
+                  name="name"
+                  required
+                />
+                <input
+                  type="email"
+                  class="form-control"
+                  placeholder="E-mail"
+                  name="email"
+                  required
+                />
+                <textarea
+                  rows="5"
+                  name="message"
+                  class="form-control"
+                  placeholder="Your Message"
+                  required
+                ></textarea>
+                <button class="send-btn" type="submit">Submit Form</button>
+              </form>
+
+              <div>
+                <img src="image/contact-png.png" alt="" />
+              </div>
+            </div>
+          </div>
+
+          <div class="map">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3570.8284646071133!2d80.3048466756864!3d26.493467376899595!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x399c472bc6fb5a61%3A0x12b6fef2872cee80!2sHBTU%20-%20Kanpur!5e0!3m2!1sen!2sin!4v1704007499192!5m2!1sen!2sin"
+              width="100%"
+              height="450"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+          </div>
+
+          <div class="contact-footer">
+            <h3>Follow Us</h3>
+            <div class="social-links">
+              <a href="#" class="fab fa-facebook-f"></a>
+              <a href="#" class="fab fa-twitter"></a>
+              <a href="https://www.instagram.com/callidus_community/" class="fab fa-instagram"></a>
+              <a href="#" class="fab fa-linkedin"></a>
+              <a href="#" class="fab fa-youtube"></a>
+            </div>
+          </div>
+        </section>
+      </div>
+
+
+
+
+    <script>
+        // Set the date we're counting down to
+        var countDownDate = new Date("Jan 5, 2024 15:37:25").getTime();
+        
+        // Update the count down every 1 second
+        var countdownfunction = setInterval(function() {
+        
+          // Get todays date and time
+          var now = new Date().getTime();
+          
+          // Find the distance between now an the count down date
+          var distance = countDownDate - now;
+          
+          // Time calculations for days, hours, minutes and seconds
+          var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+          var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+          var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+          var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+          
+          // Output the result in an element with id="demo"
+          document.getElementById("demo").innerHTML = days + "d " + hours + "h "
+          + minutes + "m " + seconds + "s ";
+          
+          // If the count down is over, write some text 
+          if (distance < 0) {
+            clearInterval(countdownfunction);
+            document.getElementById("demo").innerHTML = "EXPIRED";
+          }
+        }, 1000);
+        </script>
+
+        <script>
+            let sections = document.querySelectorAll('section');
+let navLinks = document.querySelectorAll('header nav a');
+window.onscroll = () => {
+    sections.forEach(sec => {
+        let top = window.scrollY;
+        let offset = sec.offsetTop - 150;
+        let height = sec.offsetHeight;
+        let id = sec.getAttribute('id');
+        if(top >= offset && top < offset + height) {
+            navLinks.forEach(links => {
+                links.classList.remove('active');
+                document.querySelector('header nav a[href*=' + id + ']').classList.add('active');
+            });
+        };
+    });
+};
+        </script>
+
+  </body>
+</html>
