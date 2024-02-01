@@ -37,6 +37,7 @@ h2 {
   margin: $margin auto;
   position: relative;
 
+
   &__event {
     margin-bottom: $spacing;
     position: relative;
@@ -242,14 +243,21 @@ h2 {
   }
 }
 
+@media(max-width: 1240px){
+ 
+}
+
 @media (max-width: 786px) {
+  #holder{
+    width: 8cm;
+  }
   .timeline__event {
     flex-direction: column;
     align-self: center;
     &__content {
       width: 100%;
     }
-
+ 
     &__icon {
       border-radius: $bdrs $bdrs 0 0;
       width: 100%;

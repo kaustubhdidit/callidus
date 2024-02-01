@@ -646,28 +646,39 @@ main {
 @media(max-width: 1240px){
   ul{
     position: relative;
-    left: 1.1cm;
+    left: 1.5cm;
+  }
+  .timeline{
+    width: 8cm;
+  }
+  .comm h2 {
+    /* display: flex; */
+    /* width: 3cm; */
+    /* font-size: small; */
+    /* font-size: large; */
+    color: white; font-family: 'Great Vibes', cursive;
+    font-family: 'Rubik Glitch Pop', system-ui;
   }
   .train-car {
     width: 500px; 
     height: 400px; 
     background-color: rgba(255, 255, 255, 0);
     position: absolute;
-    animation: moveTrain 4s linear infinite; 
+    animation: moveTrain 4.5s linear infinite; 
     top: 50px;
     z-index: 2;
   }
   
   /* Adjusted left values for spacing */
   .train-car:nth-child(1) { left: 0; animation-delay: 0s; }
-  .train-car:nth-child(2) { left: 300px; animation-delay: -12s; }
-  .train-car:nth-child(3) { left: 600px; animation-delay: -24s; }
-  .train-car:nth-child(4) { left: 900px; animation-delay: -36s; }
-  .train-car:nth-child(5) { left: 1200px; animation-delay: -48s; }
-  .train-car:nth-child(6) { left: 1500px; animation-delay: -60s; }
-  .train-car:nth-child(7) { left: 1800px; animation-delay: -72s; }
-  .train-car:nth-child(8) { left: 2100px; animation-delay: -84s; }
-  .train-car:nth-child(9) { left: 2400px; animation-delay: -98s; }
+  .train-car:nth-child(2) { left: 300px; animation-delay: -6s; }
+  .train-car:nth-child(3) { left: 600px; animation-delay: -12s; }
+  .train-car:nth-child(4) { left: 900px; animation-delay: -18s; }
+  .train-car:nth-child(5) { left: 1200px; animation-delay: -24s; }
+  .train-car:nth-child(6) { left: 1500px; animation-delay: -30s; }
+  .train-car:nth-child(7) { left: 1800px; animation-delay: -36s; }
+  .train-car:nth-child(8) { left: 2100px; animation-delay: -42s; }
+  .train-car:nth-child(9) { left: 2400px; animation-delay: -48s; }
   /* .train-car:nth-child(10) { left: 2700px; animation-delay: -54s; } */
   
   .team{
