@@ -318,6 +318,7 @@ body{
 }
 
 @media screen and (min-width: 1200px){
+
     .contact-info{
         grid-template-columns: repeat(4, 1fr);
     }
@@ -464,6 +465,7 @@ main {
     width: 20%;
   }
 
+
   .logo {
     display: none;
   }
@@ -564,6 +566,7 @@ main {
 	margin-top: 4rem;
 }
 .team-content img{
+  z-index: 99;
 	width: 100%;
 	height: auto;
 	border-radius: 15px;
@@ -641,16 +644,42 @@ main {
 }
 
 @media(max-width: 1240px){
- 
-	.team{
-		width: 100%;
-		height: auto;
-		padding: 90px 2%;
-	}
-	.center h1{
-		font-size: 3.2rem;
-	}
+  ul{
+    position: relative;
+    left: 1.1cm;
+  }
+  .train-car {
+    width: 500px; 
+    height: 400px; 
+    background-color: rgba(255, 255, 255, 0);
+    position: absolute;
+    animation: moveTrain 4s linear infinite; 
+    top: 50px;
+    z-index: 2;
+  }
+  
+  /* Adjusted left values for spacing */
+  .train-car:nth-child(1) { left: 0; animation-delay: 0s; }
+  .train-car:nth-child(2) { left: 300px; animation-delay: -12s; }
+  .train-car:nth-child(3) { left: 600px; animation-delay: -24s; }
+  .train-car:nth-child(4) { left: 900px; animation-delay: -36s; }
+  .train-car:nth-child(5) { left: 1200px; animation-delay: -48s; }
+  .train-car:nth-child(6) { left: 1500px; animation-delay: -60s; }
+  .train-car:nth-child(7) { left: 1800px; animation-delay: -72s; }
+  .train-car:nth-child(8) { left: 2100px; animation-delay: -84s; }
+  .train-car:nth-child(9) { left: 2400px; animation-delay: -98s; }
+  /* .train-car:nth-child(10) { left: 2700px; animation-delay: -54s; } */
+  
+  .team{
+    width: 100%;
+    height: auto;
+    padding: 90px 2%;
+  }
+  .center h1{
+    font-size: 3.2rem;
+  }
 }
+
 
 section{
   z-index: -99;
@@ -660,6 +689,8 @@ section{
   .righter{
     margin-left: 0;
   }
+
+ 
   .ext{
     height: 0;
   }
