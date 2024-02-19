@@ -711,6 +711,9 @@ section{
   .timeline__event {
     /* width: 8cm; */
   }
+  #mudita{
+    padding-bottom: 0px;
+  }
   #anshika{
     position: relative;
     left: 2.76cm;
