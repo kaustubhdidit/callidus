@@ -643,6 +643,11 @@ main {
 	transform: translateY(-10px);
 	cursor: pointer;
 }
+@media(min-width: 1240px){
+  .comm h2{
+    font-size: 1.5cm;
+  }
+}
 
 @media(max-width: 1240px){
   
