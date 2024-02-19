@@ -711,6 +711,11 @@ section{
   .timeline__event {
     /* width: 8cm; */
   }
+  .box{
+    h3{
+      font-size: 18px;
+    }
+  }
   #mudita{
     padding-bottom: 0px;
   }
