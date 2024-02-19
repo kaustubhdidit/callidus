@@ -45,7 +45,7 @@ h2 {
     margin: $spacing 0;
     border-radius: $bdrs;
     align-self: center;
-    width: 50vw;
+   
 
     &:nth-child(2n + 1) {
       flex-direction: row-reverse;
@@ -249,10 +249,14 @@ h2 {
 
 @media (max-width: 786px) {
   #holder{
-    width: 8cm;
+    // width: 8cm;
   }
+
   .timeline__event {
+    
+   
     flex-direction: column;
+    width: 9cm;
     align-self: center;
     &__content {
       width: 100%;
@@ -288,7 +292,11 @@ h2 {
         margin: 0;
       }
     }
+   
   }
+}
+@media screen and  (max-width: 786px){
+
 }
 
 @keyframes fillLeft {
