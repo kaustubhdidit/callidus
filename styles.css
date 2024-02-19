@@ -711,6 +711,11 @@ section{
   .timeline__event {
     /* width: 8cm; */
   }
+  #anshika{
+    position: relative;
+    left: 2.76cm;
+    /* width: 5cm; */
+  }
 }
 
 
